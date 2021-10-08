@@ -1,7 +1,8 @@
 <?php
-namespace nikolav\CurlRequest;
+
 $resp  = "";
 $pdata = null;
+
 header("Content-Type: text/plain");
 
 if (function_exists("curl_init")) {
